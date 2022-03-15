@@ -1,0 +1,323 @@
+@media(max-width:1400px) {
+    .line {
+        width: 81%;
+        top: 8px;
+    }
+    .send {
+        right: -26px;
+        top: -24px;
+    }
+    .path .background4 .bulbFactory {
+        display: none;
+    }
+}
+
+@media(max-width:1200px) {
+    .send {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+    .motivation {
+        position: relative;
+        top: 60%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .motivation::after {
+        display: none;
+    }
+    .ftr_up .factory_bulb {
+        font-size: 100px;
+    }
+    .ftr_up .container h5 {
+        margin-top: -2%;
+    }
+    .mynav {
+        justify-content: end;
+    }
+    .howItWorks .tools_h2 {
+        margin-top: 69px;
+    }
+    .business_plan {
+        margin-top: 142px;
+    }
+}
+
+@media (max-width: 1022px) {
+    .checkbtn {
+        display: block;
+        right: 20px;
+        top: 27px;
+    }
+    .nav_ul_mine {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+        position: absolute;
+        padding-bottom: 30px;
+        background-color: black;
+        top: 150px;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5s ease;
+        flex-direction: column !important;
+        z-index: 100;
+        opacity: 0.89;
+    }
+    .nav_ul_mine li {
+        padding-top: 30px;
+        display: block;
+    }
+    .nav_ul_mine li a {
+        color: #ffffff;
+    }
+    .company_Logo {
+        width: 150px;
+    }
+    .list .login_btn {
+        margin-right: 55px;
+    }
+    .list ul li a:hover {
+        transform: scale(1);
+        color: greenyellow;
+    }
+    .nav_ul_mine li:last-child {
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width:992px) {
+    .mynav .navbar-nav .nav-item a {
+        color: #393938 !important;
+        font-size: 16px;
+    }
+    .mynav {
+        margin-top: 20px;
+    }
+    .mynav2 .nav-item .nav-link {
+        padding: 15px 20px !important;
+    }
+    .second_tab .mynav2 .nav-item .nav-link {
+        padding: 15px 19px !important;
+    }
+    .mynav2 {
+        max-width: 580px !important;
+    }
+    .second_tab .mynav2 {
+        max-width: 403px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .tools {
+        margin-top: 50px;
+    }
+    .banner_content {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 100%;
+    }
+    .second {
+        padding-left: 0px !important;
+    }
+    .first {
+        max-width: none !important;
+    }
+    .banner_content h1 {
+        font-size: 25px !important;
+    }
+    .banner_content span {
+        font-size: 40px;
+        margin-bottom: 5px !important;
+    }
+    .banner_content h5 {
+        font-size: 14px;
+    }
+    .banner_content .get_started {
+        margin-top: 20px !important;
+    }
+    .tools_h2 {
+        font-size: 30px;
+    }
+    .background_business h4 {
+        font-size: 22px !important;
+    }
+    .howItWorks .container {
+        margin-top: 30px;
+    }
+    .workingCircles_secondnfourth {
+        margin-top: 30px !important;
+    }
+    .workingCircles_third {
+        margin-top: 30px !important;
+    }
+    .working_circles h3 {
+        margin-top: 0px;
+    }
+    .working_circles p {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .start_journey {
+        margin-top: 50px !important;
+    }
+    .path {
+        margin-top: 50px!important;
+    }
+    .payment {
+        margin-top: 100px !important;
+    }
+    .payment h5 {
+        margin-top: -60px;
+    }
+    .ftr_up .factory_bulb {
+        font-size: 48px;
+    }
+    .ftr_up .container h5 {
+        margin-top: 0%;
+        font-size: 24px;
+    }
+    .computer {
+        margin-top: 0px!important;
+    }
+    .background_business h5 {
+        margin-top: 20px !important;
+    }
+    .journey {
+        margin-top: 15px !important;
+    }
+    .information input {
+        height: 40px;
+    }
+    .privacy {
+        padding-bottom: 0px !important;
+    }
+    .right_reserved {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 90px !important;
+    }
+    .headernBanner {
+        background-size: contain !important;
+        background-position: top !important;
+    }
+    .path .background4 {
+        margin-top: 50px !important;
+    }
+    .motivation {
+        top: 55%;
+    }
+    .business_plan {
+        margin-top: 70px;
+    }
+    .tab_content_color {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:567px) {
+    .headernBanner {
+        height: 825px;
+    }
+    .background_business {
+        margin-top: 45px;
+    }
+    .background_business button {
+        margin-top: 20px!important;
+    }
+}
+
+@media(max-width:500px) {
+    .tools {
+        margin-top: 30px;
+    }
+    .information {
+        padding: 20px !important;
+    }
+    .banner_content .get_started {
+        padding: 10px 15px !important;
+    }
+    .background_business .pathTo_success {
+        padding: 10px 15px !important;
+    }
+    .information .sbmt_btn {
+        padding: 10px 15px !important;
+        max-width: 112px;
+    }
+    .lets_start {
+        padding: 10px 15px !important;
+    }
+}
+
+@media(max-width:412px) {
+    .banner {
+        margin-top: 10px;
+    }
+    .navbar-brand img {
+        width: 72%;
+    }
+    .bulb {
+        display: none;
+    }
+    .numbering_text {
+        max-width: 202px;
+    }
+    .tools_h2 {
+        font-size: 25px;
+    }
+    .banner_content p {
+        font-size: 35px;
+    }
+    .playbtn {
+        height: 40px;
+        width: 40px;
+    }
+    .start_journey h5 {
+        font-size: 19px;
+    }
+    .working_circles figure {
+        height: 115px;
+        width: 115px;
+    }
+    .banner figure {
+        margin-top: 20px;
+    }
+    .picture_content {
+        margin-top: 20px;
+    }
+    .motivation {
+        top: 52%;
+    }
+    .mot_container {
+        padding: 10px !important;
+    }
+    .four_article {
+        border: 1px solid #4eb648;
+        border-radius: 20px;
+        margin-top: 10px !important;
+        padding-top: 10px;
+        padding-left: 10px !important;
+    }
+    .p1,
+    .p2 {
+        font-size: 14px !important;
+    }
+    .company_Logo {
+        width: 100px;
+    }
+    .nav_ul_mine {
+        top: 97px;
+    }
+    .checkbtn {
+        top: 12px;
+    }
+    .list .login_btn {
+        margin-right: 40px;
+        padding-left: 0.7rem !important;
+        padding-right: 0.7rem !important;
+    }
+}
